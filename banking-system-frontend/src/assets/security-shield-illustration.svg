@@ -1,0 +1,30 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1"/>
+      <stop offset="100%" style="stop-color:#885CF6"/>
+    </linearGradient>
+    <linearGradient id="shadowGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#885CF6;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#885CF6;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <!-- Shadow ellipse -->
+  <ellipse cx="60" cy="108" rx="30" ry="8" fill="url(#shadowGrad)"/>
+  <!-- Shield shape -->
+  <path d="M60 10 L95 28 L95 62 C95 82 78 96 60 104 C42 96 25 82 25 62 L25 28 Z" fill="url(#shieldGrad)"/>
+  <!-- Shield highlight -->
+  <path d="M60 15 L90 31 L90 62 C90 80 74 93 60 101" stroke="white" stroke-opacity="0.2" stroke-width="2" fill="none"/>
+  <!-- Lock body -->
+  <rect x="46" y="58" width="28" height="22" rx="4" fill="white" opacity="0.9"/>
+  <!-- Lock shackle -->
+  <path d="M52 58 L52 50 C52 44 68 44 68 50 L68 58" stroke="white" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <!-- Keyhole -->
+  <circle cx="60" cy="67" r="4" fill="url(#shieldGrad)"/>
+  <rect x="58" y="67" width="4" height="6" rx="2" fill="url(#shieldGrad)"/>
+  <!-- Stars / sparkles -->
+  <circle cx="20" cy="40" r="3" fill="#885CF6" opacity="0.4"/>
+  <circle cx="100" cy="35" r="2" fill="#6366F1" opacity="0.4"/>
+  <circle cx="15" cy="70" r="2" fill="#885CF6" opacity="0.3"/>
+  <circle cx="105" cy="75" r="3" fill="#6366F1" opacity="0.3"/>
+</svg>

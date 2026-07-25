@@ -1,0 +1,51 @@
+<svg width="260" height="180" viewBox="0 0 260 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="buildingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.35"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.1"/>
+    </linearGradient>
+  </defs>
+  <!-- Bank Building Body -->
+  <rect x="60" y="70" width="120" height="90" rx="4" fill="url(#buildingGrad)" stroke="white" stroke-opacity="0.3" stroke-width="1"/>
+  <!-- Columns -->
+  <rect x="72" y="75" width="10" height="80" rx="2" fill="white" opacity="0.2"/>
+  <rect x="92" y="75" width="10" height="80" rx="2" fill="white" opacity="0.2"/>
+  <rect x="112" y="75" width="10" height="80" rx="2" fill="white" opacity="0.2"/>
+  <rect x="132" y="75" width="10" height="80" rx="2" fill="white" opacity="0.2"/>
+  <rect x="152" y="75" width="10" height="80" rx="2" fill="white" opacity="0.2"/>
+  <!-- Roof -->
+  <polygon points="55,72 120,32 185,72" fill="white" opacity="0.25"/>
+  <!-- Roof ridge -->
+  <line x1="55" y1="72" x2="185" y2="72" stroke="white" stroke-opacity="0.4" stroke-width="2"/>
+  <!-- Door -->
+  <rect x="107" y="120" width="26" height="40" rx="3" fill="white" opacity="0.15"/>
+  <!-- Steps -->
+  <rect x="50" y="158" width="140" height="5" rx="2" fill="white" opacity="0.2"/>
+  <rect x="42" y="162" width="156" height="5" rx="2" fill="white" opacity="0.15"/>
+
+  <!-- Floating Credit Card -->
+  <g transform="translate(145, 95) rotate(-12)">
+    <rect width="90" height="58" rx="8" fill="url(#cardGrad)" stroke="white" stroke-opacity="0.4" stroke-width="1"/>
+    <!-- Chip -->
+    <rect x="10" y="18" width="18" height="14" rx="3" fill="white" opacity="0.4"/>
+    <rect x="12" y="20" width="6" height="10" rx="1" fill="white" opacity="0.3"/>
+    <rect x="22" y="20" width="6" height="10" rx="1" fill="white" opacity="0.3"/>
+    <!-- Number -->
+    <rect x="10" y="38" width="40" height="3" rx="1.5" fill="white" opacity="0.5"/>
+    <!-- Contactless icon -->
+    <circle cx="75" cy="20" r="7" stroke="white" stroke-opacity="0.5" stroke-width="1.5" fill="none"/>
+    <circle cx="75" cy="20" r="4" stroke="white" stroke-opacity="0.4" stroke-width="1" fill="none"/>
+    <!-- Visa text -->
+    <text x="58" y="52" font-family="Arial" font-size="10" font-weight="bold" fill="white" opacity="0.7">VISA</text>
+  </g>
+
+  <!-- Coins/circles decoration -->
+  <circle cx="40" cy="120" r="12" fill="white" opacity="0.08"/>
+  <circle cx="35" cy="140" r="8" fill="white" opacity="0.06"/>
+  <circle cx="220" cy="60" r="15" fill="white" opacity="0.06"/>
+  <circle cx="235" cy="80" r="8" fill="white" opacity="0.05"/>
+</svg>
